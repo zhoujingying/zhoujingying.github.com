@@ -1,0 +1,202 @@
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+content,
+nav,
+section {
+  display: block;
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: "微软雅黑";
+	font-size: 100%;
+}
+img,video{
+	max-width: 100%;
+}
+
+header{
+	width: 100%;
+	overflow: auto;
+	background:#deecdf;
+	text-align: center;
+
+}
+header section{
+	margin-top: 6.5em;
+}
+header p{
+	font-size: 1.2em;
+	color:#151515;
+	font-weight:bold;
+}
+header img+p{
+	padding: 0.3em;
+	font-size: 1.9em;
+	font-weight: normal;
+	color:#443F3F;
+}
+header a{
+	display: block;
+	width: 9em;
+	height: 3.5em;
+	background: #00CFBD url(../img/botton.png) no-repeat center;
+	margin: 0 auto;
+	margin-top: 5em;
+	border:solid 1px #00CFBD;
+	border-radius: 8px 8px 0px 0px;
+}
+header span{
+	color:#00CFBD;
+	font-size: 1.5em; 
+}
+/*--------------------------------------------------*/
+.firstC{
+	margin: 0em auto;
+	margin-top: 2em;
+	max-width: 60em;
+	overflow: auto;
+	text-align: center;
+
+}
+.firstC section{
+	float: left;
+	width: 49.5%;
+	overflow: auto;
+
+}
+.rightContent
+{
+	margin-top: 6.2em;
+	float: right;
+	border-left: 1px solid #C5C2C2;
+}
+section p{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding:1em 3em;
+	color: #3C3A3A;
+}
+/*--------------------------------------------------*/
+.secondC{
+	margin: 0em auto;
+	margin-top: 9em;
+	width: 100%;
+	background:#deecdf;
+	overflow: auto;
+	text-align: center;
+}
+.secondC section{
+	overflow: auto;
+	margin:0 auto;
+	margin-bottom: 3em;
+	max-width: 75em;
+}
+.secondC h1{
+	color: #403F3F;
+	padding: 1.5em 0px;
+	font-size: 1.5em;
+
+}
+.block{
+	background: #FFFFFF;
+	margin-bottom: 2em;
+}
+.block video{
+	float: right;
+}
+.world1,.world2{
+	font-size: 85%;
+	line-height: 2em;
+}
+.block p{
+	color:#6C6A6A;
+}
+.world1{
+	width: 50%;
+	float: right;
+}
+.world2{
+	width: 50%;
+	float: left;
+}
+p.headWorld,.block a{
+	text-align: center;
+	margin-top: 2em;
+	color: #353637;
+}
+.world1 a,.world2 a{
+	display:inline-block;
+	width: 5em;
+	height: 2em;
+	line-height: 2em;
+	border:1px solid #141313;
+	border-radius: 5px 5px;
+	color: #1E1D1D;
+	margin:2em 4em 1em 4em;
+	font-size: 1em;
+}
+.block a:hover{
+	background:#54EA8B;
+}
+footer{
+	margin-top: 1em;
+	text-align: center;
+}
+/*--------------------------------------------------------------------*/
+@media only screen and (min-width: 15em){
+.secondC section{
+	max-width: 37.5em;
+}
+.block{
+	margin-bottom: 3.3em;
+	overflow: auto;
+}
+.world1,.world2{
+	text-align: center;
+	margin: 0 auto;
+	clear: left;
+	width: 100%;
+}
+}
+/*-----------------------------------------------------------------*/
+@media only screen and (min-width: 15em) and (max-width: 38em){
+	.firstC section{
+		width: 100%;
+		overflow: auto;
+		font-size:90%;
+	}
+	.rightContent{
+		clear: left;
+		margin-top: 6.2em;
+		border:none;
+	}	
+}
+/*-------------------------------------------------------------------*/
+@media only screen and (min-width: 78em){
+.firstC section{
+	font-size: 100%;
+}
+.secondC section{
+	max-width: 75em;
+}
+.block{
+	margin-bottom: 2em;
+	width: 100%;
+}
+
+.world1{
+	width: 50%;
+	float: right;
+}
+.world2{
+	width: 50%;
+	float: left;
+}
+}
