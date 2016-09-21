@@ -1,0 +1,96 @@
+/*slide外面container,要写position,width,height,其它自定义*/
+.container_slide{
+	position: relative;
+	width: 280px;           	/**/
+    height: 141px;				/**/
+}
+/*pic部分,position,width和height用100%,和overflow*/
+.pic_slide{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*ul的height自动继承父级,position用absolute脱离文档流*/
+.pic_slide ul{
+	position: absolute;
+}
+.pic_slide  ul li{
+	float:left;
+	overflow: hidden;
+}
+
+
+
+.container_slide .btn{
+	position:absolute;
+	right:10px;					/**/
+	bottom:5px;					/**/
+	text-align:right;	
+	z-index: 90;
+}
+.container_slide .btn span{
+	display:inline-block;
+	float: left;
+	*display:inline; 
+	*zoom:1;
+	width:13px;
+	height:13px;
+	margin-left:5px;
+	cursor:pointer;
+	background: url(../img/slide_span.png) center no-repeat;
+}
+.container_slide .btn span.on{
+	background: url(../img/slide_span2.png) center no-repeat;
+}
+
+
+
+.bg_slide{
+	position: absolute;
+	width: 100%;
+	height: 30px;				/**/			
+	background: #232323;
+	filter:alpha(opacity=50); /* IE */ 
+	-moz-opacity:0.5; /* Moz + FF */ 
+	opacity: 0.5; /* 支持CSS3的浏览器（FF 1.5也支持）*/ 
+	left: 0;
+	bottom: 0;
+	z-index: 20;
+}
+
+
+.text_slide{
+	position: absolute;
+	height: 30px;				/**/	
+	line-height: 30px;			/**/	
+	text-align: left;
+	padding-left: 12px;
+	left: 0;
+	bottom: 0;
+	z-index: 50;
+	overflow: hidden;	
+}
+.text_slide a{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 70%;
+	color: #fff;
+	font-size:12px;
+}
+
+.leftImg{
+	position: absolute;
+	left: 0;
+	top: 35%;
+	z-index: 50;
+}
+.rightImg{
+	position: absolute;
+	right:0;
+	top: 35%;
+	z-index: 50;
+}
+
+

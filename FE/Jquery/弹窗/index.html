@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	<style type="text/css">
+		*{ margin:0; padding:0;}
+		.mask{
+			display: none;
+			width: 100%;               /*遮罩的高度动态获取*/
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: #000000;
+			opacity: 0.3;
+		}
+		#login{ width:300px; height:300px; border:1px #000 solid; background:#cornsilk;position:fixed;display: none;}
+		#close{ position:absolute; right:0; top:0;}
+	</style>
+</head>
+<script>
+$(function(){
+	
+	
+	$('#input1').click(function(){
+		$('.mask').css('height',$('body').height());     //只有这一句，没有resize scroll函数的话只有第一次打开或刷新能获取
+		$('.mask').css('display','block');              //显示遮罩
+		$('#login').css('display','block');             //显示弹窗
+	
+		//在屏幕中间
+		$('#login').css('left' , ($(window).width() - $('#login').outerWidth())/2 );
+		$('#login').css('top' , ($(window).height() - $('#login').outerHeight())/2 );
+		
+//		
+		$('#close').click(function(){                  //关闭按钮
+			
+		$('#login').css('display','none');            //关闭弹窗和遮罩
+		$('.mask').css('display','none');
+		})
+			
+		});
+//		
+//		
+		$(window).on('resize scroll',function(){
+			$('.mask').css('height',$(window).height());      //调整遮罩高度
+			$('#login').css('left' , ($(window).width() - $('#login').outerWidth())/2 );       //重要，使弹窗一直居中
+			$('#login').css('top' , ($(window).height() - $('#login').outerHeight())/2 );
+////			
+////			oLogin.css('left' , ($(window).width() - oLogin.outerWidth())/2 );
+////		oLogin.css('top' , ($(window).height() - oLogin.outerHeight())/2 + $(window).scrollTop() );
+////			
+////		});     不用这种方法，因为会反复刷新
+//		
+	});
+//	
+});
+
+</script>
+</head>
+
+<body style="background:url(images/index_bg1.jpg) no-repeat;">
+<div class="mask"></div>
+<input type="button" value="点击" id="input1" />
+
+<div id="login">
+	<p>用户名:<input type="text" /></p>
+    <p>密码:<input type="text" /></p>
+    <div id="close">X</div>
+</div>
+</body>
+</html>

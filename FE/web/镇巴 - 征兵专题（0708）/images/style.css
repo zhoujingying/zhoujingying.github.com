@@ -1,0 +1,283 @@
+/* CSS Document */
+@charset "utf-8";
+
+/*头部和nav*/
+.zbzt_logo{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 22px;
+}
+
+.zbzt_container{
+	width: 1190px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top:25px;
+	padding: 0 5px 5px 5px;
+	background: url(zbzt_nav_bg.png) repeat;
+}
+.zbzt_nav{
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+}
+.zbzt_nav a{
+	display: inline-block;
+	*zoom:1;
+	*display:inline;
+	float: left;
+	height: 100%;
+	padding: 0 50px 0 52px;
+	font-size: 15px;
+	color: #fffefe;
+	background: url(zbzt_nav_a.png) left top no-repeat;		
+}
+a.zbzt_nav_first{
+	background: none;
+}
+.zbzt_nav_num{
+	float: right;
+	margin-right: 48px;
+}
+.zbzt_nav_num font{
+	padding-left: 30px;
+	color: #fdfdb7;
+	background: url(zbzt_nav_img.png) left top no-repeat;	
+}
+
+/*整体布局*/
+.zbzt_cInside{
+	padding: 19px 19px 38px 19px;
+	background: #fff;
+	overflow: hidden;
+}
+.zbzt_main{
+	width: 760px;
+	float: left;
+	overflow: hidden;
+}
+.zbzt_main_left{
+	width: 370px;
+	float: left;
+}
+.zbzt_main_right{
+	width: 370px;
+	float: right;
+}
+.zbzt_side{
+	width: 370px;
+	float: right;
+}
+
+
+
+/*新闻轮播*/
+.zbzt_carousel{
+	position: relative;
+	width: 370px;           	
+    height: 246px;
+    margin-bottom: 23px;		
+}
+.zbzt_pic_slide{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.zbzt_pic_slide ul{
+	position: absolute;
+}
+.zbzt_pic_slide  ul li{
+	float:left;
+	overflow: hidden;
+}
+
+.zbzt_carousel .btn{
+	position:absolute;
+	right:10px;					
+	bottom:5px;					
+	text-align:right;	
+	z-index: 90;
+}
+.zbzt_carousel .btn span{
+	display:inline-block;
+	float: left;
+	*display:inline; 
+	*zoom:1;
+	width:13px;
+	height:19px;
+	margin-left:5px;
+	cursor:pointer;
+	background: url(zbzt_btn_0.png) center no-repeat;
+}
+.zbzt_carousel .btn span.on{
+	background: url(zbzt_btn_1.png) center no-repeat;
+}
+.zbzt_bg_slide{
+	position: absolute;
+	width: 100%;
+	height: 30px;							
+	background: #232323;
+	filter:alpha(opacity=50); /* IE */ 
+	-moz-opacity:0.5; /* Moz + FF */ 
+	opacity: 0.5; /* 支持CSS3的浏览器（FF 1.5也支持）*/ 
+	left: 0;
+	bottom: 0;
+	z-index: 20;
+}
+.zbzt_text_slide{
+	position: absolute;
+	height: 30px;					
+	line-height: 30px;				
+	text-align: left;
+	padding-left: 12px;
+	left: 0;
+	bottom: 0;
+	z-index: 50;
+	overflow: hidden;	
+}
+.zbzt_text_slide a{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 70%;
+	color: #fff;
+	font-size:12px;
+}
+
+/*顶部图片轮播*/
+.zbzt_slide_container{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 28px;
+}
+.zbzt_slide{
+	position: relative;
+	width: 1080px;
+	height: 100px;
+	overflow: hidden;
+}
+.zbzt_slide ul {
+	position: relative;
+	height: 100px;
+	float: left;
+	overflow: hidden;
+}
+
+.zbzt_slide li {
+	display: inline;
+	float: left;
+	width: 170px;
+	margin-right: 10px;
+	text-align: center;
+}
+.zbzt_slide_left{
+	width: 25px;
+	height: 100%;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	background: #f5f5f5 url(zbzt_slide_btn_l.png) center no-repeat;
+}
+.zbzt_slide_right{
+	position: absolute;
+	width: 25px;
+	height: 100px;
+	right: 0;
+	top: 10px;
+	cursor: pointer;
+	background: #f5f5f5 url(zbzt_slide_btn_r.png) center no-repeat;
+}
+
+/*section*/
+.zbzt_sec_nav{
+	height: 32px;
+	line-height: 32px;
+	background: #f5f5f5 url(zbzt_sec_bg.png) left top no-repeat;
+}
+.zbzt_sec_nav font{
+	float: left;
+	padding-left: 13px;
+	font-size: 15px;
+	color: #333;
+	font-weight: bold;
+}
+.zbzt_sec_nav a{
+	display: block;
+	float: right;
+	margin-right: 13px;
+}
+.zbzt_section ul{
+	height: 222px;
+	padding-top: 15px;
+	overflow: hidden;
+}
+.zbzt_section ul li{
+	height: 25px;
+	line-height: 25px;
+	padding-left: 9px;
+	background: url(zbzt_sec_li.png) left center no-repeat;
+}
+.zbzt_section ul li a{
+	display: block;
+	color: #666;
+	max-width: 207px;
+	float: left;
+	vertical-align: bottom;
+	overflow: hidden;	
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.zbzt_section ul li:hover{
+	color: #eb4e4f;
+}
+.zbzt_section ul li a:hover{
+	color: #eb4e4f;
+}
+.zbzt_section ul li span:hover{
+	color: #666;
+}
+.zbzt_section ul li span{
+	float: right;
+}
+.zbzt_bgs ul{
+	height: 87px;
+	margin-top: 13px;
+}
+
+.zbzt_bgs ul li{
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	
+}
+.zbzt_bgs ul li a{
+	color: #666666;
+	padding-left: 14px;
+}
+.zbzt_bgs ul li a:hover{
+	color: #eb4e4f;
+}
+.zbzt_footer{
+	text-align: center;
+}
+.zbzt_footer p{
+	font-size: 15px;
+	color: #f04a41;
+	margin: 23px 0 19px 0;
+	font-weight: bold;
+}
+.zbzt_footer span{
+	margin-right: 75px;
+}
+.zbzt_footer span,.zbzt_footer font{
+	color: #333;
+}
+
+

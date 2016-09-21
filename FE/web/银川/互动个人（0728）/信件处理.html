@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>信件处理</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="images/public.css">
+		<link rel="stylesheet" type="text/css" href="images/style.css">
+		<script src="images/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="images/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<img src="images/bg.jpg" style="position:fixed; top:0px;left:0px;width:100%">
+		<div class="swapClick" style="display: none;" ></div>
+		<div class="xjclMask" style="display: none;">
+			<img src="images/xjcl_1.png"/>
+			<div class="maskContent">
+			
+			</div>
+			<div class="xjclMaskBtn">
+				<button type="button" id="qdMaskAdd">确定</button>
+				<button type="button" class="cancelBtn">取消</button>
+			</div>
+		</div>
+		<div class="contain">
+			<div class="mailHead">
+				<img src="images/mailBox.png" class="mailTitle">
+				<div class="head-left lsAdd">
+					<button type="button" class="search-btn-1">登录</button>
+					<button type="button" class="search-btn-2">注册</button>
+				</div>
+			</div>
+			<div class="com xjComAdd">
+				<div class="ptContainer xlTable">
+					<p class="slTitle"><span class="bjxjTitle">信件处理</span></p>
+					<form action="" method="post">
+						<div class="tableContent">
+							<div class="sectionCl">
+								<p class="sectionNav">来信内容<img src="images/xjcl.png" alt="" /></p>
+								<table>
+									<tr>
+										<th>信件分类</th>
+										<td>咨询求助</td>
+									</tr>
+									<tr>
+										<th>信件标题</th>
+										<td>老广播电视局住宅楼何时能改造</td>
+									</tr>
+									<tr class="moreTh">
+										<th>信件正文</th>
+										<td class="xjclTd">市长您好：全市的老旧小区改造全面开始，也公式了。可是老广播电视局（西苑小区东侧、建行西侧）不在其中，不知为什么。问住建局也没有明确答复。去年西苑小区改造没有这栋楼，难道今年有没有。 </td>
+									</tr>
+									<tr>
+										<th>写信时间</th>
+										<td>2016-07-05 12：54</td>
+									</tr>
+								</table>
+							</div>
+							<div class="sectionC2 clearfix">
+								<p class="sectionNav">处理回复<img src="images/xjcl.png" alt="" /></p>
+								 <table>
+								 	<tr class="moreTh textA">
+										<th>回复内容</th>
+										<td><textarea></textarea></td>
+									</tr>
+								 </table>
+								 <p class="slBtn xjBtnAdd">
+									<input type="submit" class="slBtnActive qdAdd" value="确定">
+								</p>
+							</div>
+							
+							<div class="sectionC3">
+								
+							
+							<p class="sectionNav">下发转办<img src="images/xjcl.png" alt="" /></p>
+							<div class="clDiv">
+								<div class="clDivLeft">
+									<div class="firstLine">
+										<div class="pSelect">
+											<span>信件类别：</span>
+											<div class="selectDiv">
+												<a href="javascript:void(0);">类别</a>
+												<ul style="display: none;">
+													<li>
+														<a href="javascript:;">类别1</a>
+													</li>
+													<li>
+														<a href="javascript:;">类别2</a>
+													</li>
+													<li>
+														<a href="javascript:;">类别3</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="pRadio">
+											<span>是否公开：</span>
+											<em><input type="radio" id="" value="" name="gkRadio" checked="checked"/>是</em>
+											<em><input type="radio" id="" value="" name="gkRadio"/>否</em>
+										</div>
+										<div class="pSelect">
+											<span>回复期限：</span>
+											<div class="selectDiv">
+												<a href="javascript:void(0);"></a>
+												<ul style="display: none;">
+													<li>
+														<a href="javascript:;">1</a>
+													</li>
+													<li>
+														<a href="javascript:;">2</a>
+													</li>
+													<li>
+														<a href="javascript:;">3</a>
+													</li>
+												</ul>
+											</div>
+											&nbsp;&nbsp;天
+										</div>
+									</div>
+									<div class="firstLine">
+										<div class="ffDiv">
+											<span>分发单位：</span>
+											<input type="text" name="" id="" value="" />
+											<button type="button" class="ffFileBtn">选择分发单位</button>
+										</div>
+										<div class="pRadio">
+											<span>短信提示处理单位：</span>
+											<em><input type="radio" id="" value="" name="dxRadio" checked="checked"/>提示</em>
+											<em><input type="radio" id="" value="" name="dxRadio"/>不提示</em>
+										</div>
+									</div>
+								</div>
+								<p class="slBtn xjclBtnAdd">
+									<input type="submit" class="slBtnActive" value="确定">
+								</p>
+
+							</div>
+							</div>
+							<div class="sectionC4 clearfix">
+								<p class="sectionNav">申请退回<img src="images/xjcl.png" alt="" /></p>
+								 <table>
+								 	<tr class="moreTh textA">
+										<th>退回理由</th>
+										<td><textarea></textarea></td>
+									</tr>
+								 </table>
+								 <p class="slBtn xjBtnAdd">
+									<input type="submit" class="slBtnActive qdAdd" value="确定">
+								</p>
+							</div>
+						</div>
+					</form>
+				</div>
+				<p class="fhBtn">
+					<button type="button">返回</button>
+				</p>
+			</div>
+			<div class="foot xlFootAdd">
+				<div class="footer">
+					<p>主办：银川市人民政府 承办：银川市人民政府办公厅 运行管理：银川市电子政务管理办公室</p>
+					<p>Copyright © 2007-2016 版权所有 宁ICP备05001458号 宁公网安备 64010602000012号</p>
+					<p>建议您使用IE9+、FireFox、Google Chrome，分辨率1280*800及以上浏览本网站，获得更好用户体验。
+					</p>
+					<img src="images/yc-icon-11.png" class="mailFooterImg">
+				</div>
+			</div>
+		</div>
+
+		</div>
+	</body>
+
+</html>

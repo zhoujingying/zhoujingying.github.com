@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/*skin-red*/
+.skin1 .topforbid{
+	background-color: #ea3a3a;
+}
+.skin1 .topsearch .serbox .btn{
+	background-color: #e95a5a;
+}
+/* .skin1 .fix-left ul li:hover, */.skin1 .fix-left ul li.leftact{
+    background: url(../images/fixleft-bgact.png) no-repeat;
+}
+.skin1 .fix-right ul li{
+	background: #e25141;
+}
+/*skin red-end*/
+
+
+/*=========================================二级页面========================================================*/
+/*概览*/
+
+/*顶部*/
+.topTitleRed{
+	background: url(../images/pTitle.png) left center no-repeat;
+}
+
+/*企业文化*/
+.qyRed{
+	background:url(../images/sSide_bg.png) left top no-repeat;
+}
+
+
+/*侧边栏文字click*/
+a.sSide_red{
+	color: #ea3a3a!important;
+	font-weight: bold;
+}
+
+/*文章列表hover Red*/
+.sMRed ul li a:hover{
+	color: #ea3a3a;              
+}
+
+
+/*分页 Red*/
+a.pActiveRed{
+	color: #FFFFFF;
+	background: #d72a32!important;
+	border: 1px solid #d72a32;
+}
+.sMain ul li a:hover{
+	color: #ea3a3a;
+}
+
+/*================================人群服务========================*/
+.rqRed{
+	background:url(../images/rq_side.png) left top no-repeat;
+}
+
+/*================================细览========================*/
+.xlRed{
+	color: #ea3a3a;
+}
+
+/*================================互动服务========================*/
+.hdHRed h2{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ea3a3a;
+	line-height: 48px;
+}
+.hdFPRed span{
+	background: #ea3a3a;
+}
+.hdDcRed{
+	color: #ea3a3a;
+	font-weight: normal;
+	background: url(../images/hdDc.png) left top no-repeat;
+}
+a.btnRed{
+	color: #FFFFFF!important;
+	background: #ea3a3a!important;
+}
+
+/*===========================================公共服务======================================*/
+.fwNavRed{
+	border-bottom: 1px solid #e53935;
+}
+.fwAction{
+	background: #e53935;
+	color: #FFFFFF!important;
+}
+.fwDcRed{
+	color: #ea3a3a;
+	background: url(../images/gg_side.png) left top no-repeat;
+}
+.fwCxRed{
+	color: #ea3a3a;
+	background: url(../images/ggwfCx.png) center top no-repeat;
+}
+.fwSpanRed{
+	color: #FFFFFF;
+	background: #ea3a3a!important;
+}
+.ggfwARed a{
+	background: #ea3a3a!important;
+}
+.fwCxDivRead a{
+	background: #ea3a3a!important;
+}
+
+/*=============================================政务公开=================================================*/
+.ztRed1{
+	background: url(../images/zw_nav_1.png) left top no-repeat;
+	border-bottom: 1px solid #ea3a3a;
+}
+.ztRed2{
+	margin-top: 15px;
+	background: url(../images/zw_nav_2.png) left top no-repeat;
+	border-bottom: 1px solid #ea3a3a;
+}
+.ztRed3{
+	margin-top: 15px;
+	background: url(../images/zw_nav_3.png) left top no-repeat;
+	border-bottom: 1px solid #ea3a3a;
+}
+.ldRed p a:hover,.zzRed p a:hover,.zwSRed li a:hover{
+	color: #ea3a3a;
+}
+.zwPRed span{
+	color: #ea3a3a;
+}
+

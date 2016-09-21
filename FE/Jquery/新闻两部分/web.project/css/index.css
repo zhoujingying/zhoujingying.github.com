@@ -1,0 +1,215 @@
+/*图集*/
+.tuji{
+	position: relative;
+	overflow: hidden;
+	width: 950px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.tuji h1{
+	font-family: '微软雅黑';
+	font-size: 25px;
+	color: #16627a;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 25px;
+}
+
+.tuji .detail{
+	font-family: '微软雅黑';
+	font-size: 14px;
+	color: #16627a;
+	text-align: center;
+	background: url('yc-icon-100.png') no-repeat center 36px;
+	line-height: 30px;
+	/*padding-top: 10px;*/
+	padding-bottom: 40px;
+}
+
+.tuji .detail span{
+	display: inline-block;
+	width: 30px;
+}
+
+/*star*/
+.tuji_lunbo{
+	position: relative;
+	width: 910px;
+	height: 548px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#tuji_left{
+	position: relative;
+	top: 35%;
+	left: 0;
+	width: 50px;
+	height: 100px;
+	background: url('yc-icon-101.png') no-repeat center center;
+	background-color: #e2f4fa;
+	cursor: pointer;
+	z-index: 30;
+}
+
+#tuji_left:hover{
+	background-color: #c1e4ef;
+}
+
+#tuji_right{
+	position: absolute;
+	top: 35%;
+	right: 0;
+	width: 50px;
+	height: 100px;
+	background: url('yc-icon-102.png') no-repeat center center;
+	background-color: #e2f4fa;
+	cursor: pointer;
+	z-index: 30;
+}
+
+#tuji_right:hover{
+	background-color: #c1e4ef;
+}
+
+#img_con{
+	position: absolute;
+	left: 70px;
+	height: 475px;
+	width: 770px;
+	top: 0;
+	overflow: hidden;
+}
+
+#img_con ul{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 770px;
+	height: 475px;
+}
+#img_con ul li{
+	float:left;
+	overflow: hidden;
+}
+.tuji_lunbo_text{
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+	bottom: 73px;
+	left: 0px;
+	line-height: 40px;
+	text-indent: 20px;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	color: #fff;
+}
+.tuji_lunbo_text a{
+	display: block;
+	float: left;
+	max-width: 600px;
+	padding-left: 70px;
+	color: #fff;
+}
+
+.tuji_zhezhao{
+	position: absolute;
+	background-color: black;
+	width: 770px;
+	height: 40px;
+	bottom: 73px;
+	left: 70px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#number{
+	position: absolute;
+	bottom: 0;
+	left:47%;
+	line-height: 65px;
+	text-align: center;
+	clear: both;
+}
+
+#number .number{
+	font-family: '宋体';
+	color: #666;
+	font-size: 22px;
+}
+
+#number .num{
+	font-family: '宋体';
+	color: #10acdd;
+	font-size: 40px;
+}
+
+#number{
+	line-height: 65px;
+	text-align: center;
+	clear: both;
+}
+
+#number .number{
+	font-family: '宋体';
+	color: #666;
+	font-size: 22px;
+}
+
+#number .num{
+	font-family: '宋体';
+	color: #10acdd;
+	font-size: 40px;
+}
+
+.tuji_wufeng{
+	height: 145px;
+	border-top: 1px solid #daf1f9;
+}
+
+#tuji_wufeng_left{
+	float: left;
+	margin-left: 40px;
+	margin-top: 46px;
+	cursor: pointer;
+}
+
+#tuji_wufeng_right{
+	float: right;
+	margin-right: 40px;
+	margin-top: 46px;
+	cursor: pointer;
+}
+
+#tuji_wufeng_con{
+	position: relative;
+	float: left;
+	width: 798px;
+	height: 103px;
+	margin-left: 16px;
+	margin-top: 22px;
+	overflow: hidden;
+}
+
+#tuji_wufeng_con ul{
+	position: absolute;
+	width: 9999px;
+	left: 0px;
+}
+
+#tuji_wufeng_con ul li{
+	float: left;
+	margin-left: 10px;
+	width: 140px;
+	height: 95px;
+	cursor: pointer;
+}
+.more{
+	position: absolute;
+	top: 22px;
+	right: 89px;
+	line-height: 26px;
+	color: #16627a;
+}

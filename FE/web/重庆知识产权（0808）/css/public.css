@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+ul{list-style:none;}
+img{border:none;}
+input,textarea{border:none;outline:none;resize:none;}
+input[type="submit"],input[type="button"],input[type="reset"]{cursor:pointer;}
+
+/* a标签 */
+a{color:#666;text-decoration:none;}
+a:hover{color:#04abec;text-decoration:none;}
+
+/* 清除浮动 */
+.clearfix{*zoom:1;} /* 针对IE7 hack，触发IE7的haslayout，以清除浮动 */
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+
+body{font-size:14px;font-family:"Microsoft YaHei","微软雅黑","Arial",sans-serif;color:#666;}
+
+input,textarea{font-size:14px;font-family:"Microsoft YaHei";color:#666;}
+
+.left{float:left;}
+.right{float:right;}
+
+html,body{height:100%;}

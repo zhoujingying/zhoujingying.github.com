@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p,a,span{ margin: 0; padding: 0; }
+img{ border:0; vertical-align:middle;}
+ul,li{list-style:none;}
+li{*vertical-align: bottom;}
+button,input,textarea{outline:none;border: none;}
+textarea{resize: none;}
+body{font-family: "Arial","Microsoft YaHei","微软雅黑",sans-serif;color:#666;}
+a{text-decoration:none;} 
+body{min-width: 1236px;}
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}            
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1;}
+.lf{float: left;}
+.rt{float: right;}
+.pubcontainer{ width: 1230px; margin: 0 auto; position: relative;}

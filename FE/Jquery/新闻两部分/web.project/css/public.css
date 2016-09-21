@@ -1,0 +1,58 @@
+/*reset*/
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,textarea,p{
+	margin:0;
+	padding:0;
+}
+img{
+	border: 0;
+	vertical-align: middle;
+}
+ul,li{
+	list-style: none;
+}
+button,input,select{
+	outline: none;                               /*去掉默认高亮*/               
+	border: none;	
+}
+table{
+	border-collapse: collapse;                   /*使表格没有间隙*/
+}
+a{
+	text-decoration: none;
+}
+b{
+	font-weight: normal;
+}
+
+/*public=================================================*/
+body{
+	min-width: 1024px;    /*最小宽度写在body中*/	
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	color: #3d3d3d;
+	text-align: center;
+}
+a{
+	color: #3d3d3d;
+}
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.ml0{
+	margin-left: 0;
+}
+.mr0{
+	margin-right: 0;
+}
+.il_block{
+	float: left;
+	display: block;
+}

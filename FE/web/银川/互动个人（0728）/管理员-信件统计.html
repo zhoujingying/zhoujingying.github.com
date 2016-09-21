@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>管理员</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="images/public.css">
+	<link rel="stylesheet" type="text/css" href="images/style.css">
+    <script src="images/jquery-1.11.1.min.js"></script>
+    <script src="images/index.js"></script>
+</head>
+<body>
+	<img src="images/bg.jpg" style="position:fixed; top:0px;left:0px;width:100%">
+	<div class="contain">
+        <div class="mailHead">
+            <img src="images/mailBox.png" class="mailTitle">
+            <p>
+                <a href="" #="">信件统计</a><span>|</span>
+                <a href="#">废稿统计</a>
+            </p>
+        </div>
+		<div class="com hdComAdd">
+            <div class="ptContainer admin-search-bk">
+                <p class="slTitle"><span class="xjTitle">信件查询</span></p>
+                <div class="hdContent">
+                    <form action="" method="post">
+                        <div class="hdCsecond clearfix">
+                            <div class="pImg">
+                                <span>开始时间 :</span>
+                                <p class="textBox">
+                                    <input type="text" id="" value="">
+                                </p>
+                            </div>
+                            <div class="pImg">
+                                <span>结束时间 :</span>
+                                <p class="textBox">
+                                    <input type="text" id="" value="">
+                                </p>
+                            </div>
+                            <div class="pbmSelect">
+                                <span>部门：</span>
+                                <div class="selectDiv">
+                                    <a href="javascript:void(0);">标题</a>
+                                    <ul style="display: none;">
+                                        <li><a href="javascript:;">标题1</a></li>
+                                        <li><a href="javascript:;">标题2</a></li>
+                                        <li><a href="javascript:;">标题3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <p class="slBtn hdBtnAdd">
+                    <input type="submit" class="slBtnActive" value="查询">
+                    <button type="reset" class="slBtnActive" style="background: #8fc6dc;">重置</button>
+                </p>
+            </div>
+			<div class="ptContainer hdTable">
+				<div class="slTitle">
+                    <span class="bjxjTitle">信件处理(<em>11</em>)</span>
+                    <ul class="ad-ls-top">
+                        <li><a href="#">受理信件总数<span>（20）</span></a></li>
+                        <li><a href="#">待回复<span>（20）</span></a></li>
+                        <li><a href="#">已办结<span>（20）</span></a></li>
+                        <li><a href="javascript:;" class="export-excel-btn">导出excel</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix">
+                    <!--左侧-->
+                    <div class="ad-ls-lf">
+                        <div class="ad-lf-bk clearfix">
+                            <p>受理部门</p>
+                            <!--tree-->
+                            <div class="ad-tree-bk">
+                            </div>
+                        </div>
+                    </div>
+                    <!--右侧-->
+                    <div class="ad-ls-rt">
+                        <table border="0" cellspacing="0">
+                            <tr>
+                                <th width="190px" class="fTh">流水号</th>
+                                <th width="408px">信件标题</th>
+                                <th width="168px">写信时间</th>
+                                <th width="167px">办结时间</th>
+                                <th width="170px" class="noBg">办理部门</th>
+                            </tr>
+                            <tr class="mtTr"></tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                            <tr>
+                                <td>WEB114150</td>
+                                <td><a href="#" class='tableTdA' title='福林新村小区改造收住户费用是否合理'>福林新村小区改造收住户费用是否合理</a></td>
+                                <td>2016-07-17 15:20</td>
+                                <td>2016-07-18 10:55</td>
+                                <td><span>住建局</span> | <span>教育体育局</span></td>
+                            </tr>
+                        </table>
+                        <div class="fenye">
+                            <p>共<span>4</span>页</p>
+                            <a href="">首页</a>
+                            <a href="" class="pre">上一页</a>
+                            <a href="" class="num">1</a>
+                            <a href="" class="num page-cur">2</a>
+                            <a href="" class="num">3</a>
+                            <a href="" class="num">4</a>
+                            <a href="" class="next">下一页</a>
+                            <a href="">尾页</a>
+                            <p>转到第</p>
+                            <input type="text"/>
+                            <p>页</p>
+                            <input type="submit" class="sub" value="提交">
+                        </div>
+                    </div>
+                </div>
+			</div>
+			</div>
+		
+		<div class="foot">
+			<div class="footer">
+				<p>主办：银川市人民政府  承办：银川市人民政府办公厅  运行管理：银川市电子政务管理办公室</p>
+				<p>Copyright © 2007-2016  版权所有  宁ICP备05001458号    宁公网安备 64010602000012号</p>
+				<p>建议您使用IE9+、FireFox、Google Chrome，分辨率1280*800及以上浏览本网站，获得更好用户体验。
+				</p>
+				<img src="images/yc-icon-11.png" class="mailFooterImg">
+			</div>
+		</div>
+	</div>
+		
+	</div>
+</body>
+</html>
